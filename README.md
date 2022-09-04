@@ -54,6 +54,8 @@ In order to use the scripts provided by the MinGW-W64 project it is needed:
 *  `./build --mode=gcc-4.8.1 --arch=x86_64 --preload` for preload sources and building x86_64-MinGW-w64
 *  `./build --mode=gcc-4.8.1 --arch=i686 --exceptions=dwarf` for building i686-MinGW-w64 with DWARF exception handling
 
+Using `msys2` would open up a `make.log` file, by default on notepad++. However using `msys mingw x64` program would not open up notepad++ currently.
+
 For example, during the process of building of the i686-gcc-4.7.2 will
   be created the following directories:
 ```
